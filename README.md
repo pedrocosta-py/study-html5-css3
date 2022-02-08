@@ -18,7 +18,7 @@
 </body>
 ```
 
-# 💻Sobre 
+# 💻**Sobre** 
 Olá, bem vindo ao meu perfil ao repositório!!<br>No mesmo, serão postados codigos referentes aos meu **estudos** nas linguagens de marcação e estilo, **HTML5** e **CSS3**!!
 <br>
 <br>
