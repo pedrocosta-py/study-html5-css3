@@ -4,66 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estudos/es000/es00.css">
+    <!-- <link rel="stylesheet" href="es00.css"> -->
     <title>Estudos com listas em HTML</title>
-    <!-- <style></style> -->
+    <style>
+        /* Declarações sob elementos e tags */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 12px;
+            padding: 14px 16px;
+            background: linear-gradient(rgba(0, 255, 0, 0.534), rgba(76, 0, 130, 0.534));
+        }
+        main{
+            background: linear-gradient(rgba(0, 255, 106, 0.534), rgba(50, 0, 130, 0.534));
+            border-radius: 40px 42px;
+            margin: 16px;
+            padding: 18px 20px;
+        }
+        /* Declarações sob classes e elementos */
+        .container{
+            margin: 20px;
+            padding: 22px 24px;
+            background: linear-gradient(rgba(255, 217, 0, 0.544), rgba(0, 255, 128, 0.544));
+            border: 8px solid rgb(152, 253, 0);
+            border-radius: 20px;
+        }
+        .listas-ordenadas{
+            border-radius: 30px;
+            margin: 24px;
+            padding: 28px 30px;
+        }
+        .listas-nao-ordenadas{
+            border-radius: 30px;
+            margin: 24px;
+            padding: 28px 30px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>ESTUDOS COM LISTAS EM HTML!</h1>
+        <h1 align="center">ESTUDOS COM LISTAS EM HTML!</h1>
     </header>
     <main>
-        <section class="listas-ordenadas">
-            <p> Listas ordenadas em HTML</p>
-            <ol>
-                <li> Star Wars </li>
-                <li> Matrix </li>
-                <li> Transformers </li>
-            </ol>
-            <br>
-            <strong>
-                <p>Listas com alteração de marcação por meio do atributo type:</p>
-            </strong>
-            <br>
-            <p> Type 1</p>
-            <br>
-            <ol type="1">
-                <li>Star Wars: Nova esperança</li>
-                <li>Star Wars: O Império Contra Ataca</li>
-                <li>Star wars: O Retorno do Jedi</li>
-            </ol>
-            <br>
-            <p> Type a</p>
-            <ol type="a"> 
-                <li>Star Wars: Ameaça Fantasma</li>
-                <li>Star Wars: Ataque dos Clones</li>
-                <li>Star Wars: Vingança dos City</li>
-            </ol>
-            <br>
-            <p> Type A</p>
-            <ol type="A">
-                <li>Vivaldi</li>
-                <li>Beethoven</li>
-                <li>Mozart</li>
-            </ol>
-            <br>
-            <p> Type i</p>
-            <ol type="i">
-                <li> Boba Fett</li>
-                <li> Drin Djarin</li>
-                <li> Fenec Shand</li>
-            </ol>
-            <br>
-            <p>Type I</p>
-            <ol type="I">
-                <li>Travis Scott</li>
-                <li>Lil Wayne</li>
-                <li>Eminem</li>
-            </ol>
-        </section>
-        <section class="listas-nao-ordenadas">
-            
-        </section>    
+        <div class="container">
+            <section class="listas-ordenadas">
+                <p> Listas ordenadas em HTML</p>
+                <ol>
+                    <li> Star Wars </li>
+                    <li> Matrix </li>
+                    <li> Transformers </li>
+                </ol>
+                <br>
+                <strong>
+                    <p>Listas com alteração de marcação por meio do atributo type:</p>
+                </strong>
+                <br>
+                <p> Type 1</p>
+                <br>
+                <ol type="1">
+                    <li>Star Wars: Nova esperança</li>
+                    <li>Star Wars: O Império Contra Ataca</li>
+                    <li>Star wars: O Retorno do Jedi</li>
+                </ol>
+                <br>
+                <p> Type a</p>
+                <ol type="a"> 
+                    <li>Star Wars: Ameaça Fantasma</li>
+                    <li>Star Wars: Ataque dos Clones</li>
+                    <li>Star Wars: Vingança dos City</li>
+                </ol>
+                <br>
+                <p> Type A</p>
+                <ol type="A">
+                    <li>Vivaldi</li>
+                    <li>Beethoven</li>
+                    <li>Mozart</li>
+                </ol>
+                <br>
+                <p> Type i</p>
+                <ol type="i">
+                    <li> Boba Fett</li>
+                    <li> Drin Djarin</li>
+                    <li> Fenec Shand</li>
+                </ol>
+                <br>
+                <p>Type I</p>
+                <ol type="I">
+                    <li>Travis Scott</li>
+                    <li>Lil Wayne</li>
+                    <li>Eminem</li>
+                </ol>
+                <p> Utilizando o atributo start</p>
+                <ol type="A" start="3">
+                    <li>Alien-X</li>
+                    <li>Atômico</li>
+                    <li>Arraia-Jato</li>
+                </ol>
+                <br>
+                <ol type="I" start="2"> 
+                    <li>Legião Urbana </li>
+                    <li> O Rappa </li>
+                    <li> Pitty </li>
+                </ol> 
+            </section>
+            <section class="listas-nao-ordenadas">
+                
+            </section>
+        </div>    
     </main>
 </body>
 </html>
